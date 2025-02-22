@@ -146,7 +146,7 @@ The PySafe compiler pipeline includes:
 - **SSA Transformation:** Converts the AST to SSA for optimization.
 - **LLVM IR Generation:** Produces optimized machine code via LLVM.
 
-The prover operates optionally for `@prove` annotations. The compiler will be first implemented in Python and then bootstrapped using PySafe to compile subsequent versions of the compiler.
+The prover operates optionally for `@prove` annotations. The compiler will be first implemented in Rust and then bootstrapped using PySafe to compile subsequent versions of the compiler.
 
 ## 5. Evaluation
 
